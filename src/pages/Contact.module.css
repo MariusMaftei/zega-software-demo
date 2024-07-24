@@ -1,0 +1,64 @@
+.container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.contacts {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 50px;
+  margin: 5px 10px 55px 10px;
+}
+
+.text h1 {
+  font-size: 2.3rem;
+  font-family: "Space Mono", monospace;
+  font-style: normal;
+}
+
+.text p {
+  color: grey;
+}
+
+.text h1,
+p {
+  margin: 5px 10px 5px 10px;
+}
+
+.contactsCard {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.inputs {
+  flex: 6;
+  display: flex;
+  height: 600px;
+}
+
+.map {
+  flex: 6;
+  height: 600px;
+}
+
+.zegaImage {
+  width: 100vw;
+  margin-top: 50px;
+}
+
+.zegaImage img {
+  width: 100%;
+}

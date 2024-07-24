@@ -1,0 +1,48 @@
+.button {
+  padding: 0.75rem 1.5rem;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.burgerMenuStyles {
+  width: 100%;
+  display: flex;
+}
+
+.blueButton {
+  background-color: rgb(0, 97, 182);
+}
+
+.standardButton {
+  background-color: #fc6471;
+}
+
+.standardButton:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+.outlineButton {
+  background-color: transparent;
+  border: solid 1px #000000;
+  color: #000000;
+}
+
+.outlineButton:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+.transparentButton {
+  background-color: transparent;
+  color: #000000;
+}
+
+.transparentButton:hover {
+  color: #000000b9;
+}

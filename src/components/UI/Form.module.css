@@ -1,0 +1,23 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.center {
+  align-items: center;
+}
+
+.checkbox {
+  margin-right: 0.5rem;
+}
+
+@media screen and (min-width: 100px) and (max-width: 1200px) {
+  .container {
+    width: 95%;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+}

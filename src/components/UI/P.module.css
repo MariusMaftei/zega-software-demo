@@ -1,0 +1,17 @@
+.paragraph {
+  font-size: 17px;
+  line-height: 1.4;
+  color: black;
+}
+
+.blueParagraph {
+  color: #0d87d8;
+}
+
+.fontWeight700 {
+  font-weight: 700;
+}
+
+.marginBottom {
+  margin-bottom: 15px;
+}

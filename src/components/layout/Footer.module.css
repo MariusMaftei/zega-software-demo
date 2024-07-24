@@ -1,0 +1,33 @@
+.footer {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer ul {
+  padding: 0;
+}
+
+.copyright {
+  list-style: none;
+  margin-right: 50px;
+}
+
+.policy {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+@media screen and (min-width: 100px) and (max-width: 1000px) {
+  .footer ul li {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (min-width: 100px) and (max-width: 1200px) {
+  .policy {
+    gap: 20px;
+  }
+}

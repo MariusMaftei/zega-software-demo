@@ -1,0 +1,11 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.container video {
+  width: 100%;
+  height: auto;
+}

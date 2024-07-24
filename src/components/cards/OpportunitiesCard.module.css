@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 500px;
+  text-align: left;
+}
+
+@media screen and (min-width: 100px) and (max-width: 1200px) {
+  .container {
+    /* margin: 100px 0; */
+  }
+}
+
+.cardText {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+.cardText p {
+  width: 80%;
+  height: 80%;
+}
+
+.cardText h4 {
+  width: 80%;
+  height: 80%;
+}
+
+.cardImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 600px;
+  height: 250px;
+}
+
+.cardImage img {
+  width: 80%;
+  height: 80%;
+  margin-bottom: -40px;
+}

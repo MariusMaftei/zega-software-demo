@@ -1,0 +1,16 @@
+.container {
+  max-width: 85%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.container p {
+  margin: 15px;
+}
+
+.blueParagraph {
+  color: #0d76c6;
+  line-height: 1.6;
+  font-size: 1rem;
+  font-weight: 400;
+}

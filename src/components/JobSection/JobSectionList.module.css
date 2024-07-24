@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+}
+
+.listTitle {
+  margin: 20px 0 0 20px;
+}
+
+.container h3 {
+  font-family: "Space Mono", monospace;
+  margin: 0;
+}
+
+.container ul {
+  padding: 0 15px 0 30px;
+  margin-left: 20px;
+  line-height: 1.5;
+  font-weight: 400;
+}

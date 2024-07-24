@@ -1,0 +1,130 @@
+.pageSection {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blueSection {
+  background-color: #eef5fb;
+  z-index: 10;
+}
+
+.whiteSection {
+  background-color: #fff;
+  z-index: 10;
+}
+
+.backgroundHeadingContainer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  user-select: none;
+}
+
+.whiteBorder {
+  border-bottom: 60px solid rgb(254, 254, 254);
+  z-index: 10;
+}
+
+.blueBorder {
+  border-bottom: 60px solid #eef5fb;
+  z-index: -10;
+}
+
+.backgroundHeading {
+  font-size: 9rem;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  line-height: 0.7;
+  margin: 0;
+}
+
+@media screen and (min-width: 760px) and (max-width: 1200px) {
+  .backgroundHeading {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (min-width: 50px) and (max-width: 760px) {
+  .backgroundHeading {
+    font-size: 2.5rem;
+  }
+}
+
+.whiteBackgroundHeader {
+  color: #fff;
+  z-index: 10;
+}
+
+.blueBackgroundHeader {
+  color: #eef5fb;
+  z-index: -10;
+}
+
+.wrapper {
+  width: 1150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 100px) and (max-width: 1200px) {
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+    margin: 120px 10px 50px 10px auto;
+  }
+}
+
+.maxWidth {
+  width: 100%;
+}
+
+.marginTopHeaderContent {
+  margin: 180px 5px 0px 5px;
+}
+
+.marginTop {
+  margin: 50px 5px 0px 5px;
+}
+
+.marginBottom {
+  margin: 0px 5px 160px 5px;
+}
+
+.marginTopBottom {
+  margin: 110px 5px 160px 5px;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.spaceBetween {
+  justify-content: space-between;
+}
+
+.justifyContentStart {
+  justify-content: flex-start;
+}
+
+.flexWrap {
+  flex-wrap: wrap;
+}
+
+.flexStart {
+  align-items: flex-start;
+}
+
+@media screen and (min-width: 100px) and (max-width: 1200px) {
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 120px 10px 50px 10px auto;
+  }
+}

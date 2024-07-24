@@ -1,0 +1,49 @@
+.container {
+  width: 400px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.5);
+  user-select: none;
+  cursor: pointer;
+}
+
+.selectedContainer {
+  width: 396px;
+  background-color: #eef5fb;
+  border-left: 4px solid rgb(12, 142, 218);
+}
+
+.card {
+  width: 90%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card h4 {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.cardTable {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardText {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.cardButtons {
+  display: flex;
+  flex-direction: row;
+}

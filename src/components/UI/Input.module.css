@@ -1,0 +1,75 @@
+.container {
+  width: 100%;
+  max-width: 520px;
+  height: 50px;
+}
+
+.textAreaContainer {
+  width: 100%;
+  max-width: 520px;
+  height: 150px;
+}
+
+.entryArea {
+  position: relative;
+  line-height: 50px;
+}
+
+.entryArea input,
+.entryArea textarea {
+  position: absolute;
+  width: 100%;
+  outline: none;
+  font-size: 1rem;
+  padding: 0 15px;
+  line-height: 50px;
+  border-radius: 5px;
+  border: 2px solid rgb(158, 154, 154);
+  background-color: transparent;
+  transition: 0.1s ease;
+  z-index: 10;
+}
+
+.entryArea textarea {
+  resize: none;
+  height: 150px;
+  line-height: 3.5;
+}
+
+.labelLine {
+  position: absolute;
+  font-size: 1rem;
+  color: rgb(158, 154, 154);
+  padding: 0 10px;
+  margin: 0 10px;
+  background-color: white;
+  transition: 0.2s ease;
+  z-index: -12;
+}
+
+.errorInputText {
+  font-size: 1rem;
+  font-weight: 400;
+  color: red;
+}
+
+.entryArea input:focus,
+.entryArea input:valid,
+.entryArea textarea:focus,
+.entryArea textarea:valid {
+  color: rgb(0, 0, 0);
+  border: 3px solid rgb(158, 154, 154);
+}
+
+.entryArea input:focus + .labelLine,
+.entryArea input:valid + .labelLine,
+.entryArea textarea:focus + .labelLine,
+.entryArea textarea:valid + .labelLine {
+  color: rgb(158, 154, 154);
+  height: 20px;
+  line-height: 20px;
+  padding: 0 6px;
+  transform: translate(-10px, -10px) scale(0.88);
+  z-index: 20;
+  font-size: 1.1rem;
+}
